@@ -1,0 +1,21 @@
+#Инициализируем реп
+git init
+#Добавляем файлы в индекс
+git add file_name
+или
+git add .
+#Коммитим это все
+git commit -m "feat: Мой первый коммит"
+#Привязка удаленного и локального репозитория
+git remote add origin ссылка
+#Отправка файлов с локального на удаленный реп
+git push -u origin master
+
+#Добавляем файлы в индекс
+git add file_name
+или
+git add .
+#Коммитим это все
+git commit -m "feat: Мой второй коммит"
+#Отправка файлов
+git push
